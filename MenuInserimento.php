@@ -1,11 +1,11 @@
 <?php
+$mysqli = new mysqli("localhost", $username, $password, $database);
+$mysqli->select_db($database) or die("Errore 1: Impossibile connettersi al database!");
+$mydate=getdate(date("U"));
 session_start();
 if(array_key_exists('LANG', $_GET))$_SESSION['LANG'] = $_GET['LANG'];
 if(!array_key_exists('LANG', $_SESSION))$_SESSION['LANG'] = 'IT';
 include $_SESSION['LANG'].".php";
-$mysqli = new mysqli("localhost", $username, $password, $database);
-$mysqli->select_db($database) or die("Errore 1: Impossibile connettersi al database!");
-$mydate=getdate(date("U"));
 ?>
 
 <h1 align="center" style="color: red; padding-top: 25px"><?=$LANG['Inserimento'];?></h1>
@@ -99,4 +99,4 @@ $mydate=getdate(date("U"));
       </th>
     <tr>
   </form>
-</table>
+</table>
