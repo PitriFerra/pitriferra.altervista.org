@@ -1,0 +1,40 @@
+<?php
+   //EN.php
+   $LANG['Menu'] = "Menu";
+   $LANG['Fibonacci'] = "Fibonacci";
+   $LANG['SpesaPiuAlta'] = "Highest expenses ever recorded";
+   $LANG['Gennaio'] = "January";
+   $LANG['Febbraio'] = "February";
+   $LANG['Marzo'] = "March";
+   $LANG['Aprile'] = "April";
+   $LANG['Maggio'] = "May";
+   $LANG['Giugno'] = "June";
+   $LANG['Luglio'] = "July";
+   $LANG['Agosto'] = "August";
+   $LANG['Settembre'] = "September";
+   $LANG['Ottobre'] = "October";
+   $LANG['Novembre'] = "November";
+   $LANG['Dicembre'] = "December";
+   $LANG['SpeseMensili'] = "Monthly expenses";
+   $LANG['SpesaAltaMarket'] = "Higher spending";
+   $LANG['FibonacciTitolo'] = "Fibonacci*";
+   $LANG['CifraSinistra'] = "Enter a number on the left!";
+   $LANG['Posizione'] = "Position";
+   $LANG['Numero'] = "Number";
+   $LANG['Errore0'] = "Error 0: Input invalid, a negative number was entered!";
+   $LANG['NotaFibonacci'] = "*Beyond the 1476th position the numbers can not be represented";
+   $LANG['DatiFamiglia'] = "Family data";
+   $LANG['FunzioneSinistra'] = "Select a function on the left!";
+   $LANG['Importo'] = "Amount";
+   $LANG['NomeFamiliare'] = "Familiar Name";
+   $LANG['ImportoTotale'] = "Total amount";
+   $LANG['NomeMarket'] = "Market name";
+   $LANG['ImportoMassimo'] = "Maximum amount";
+   $LANG['Inserimento'] = "Data entry";
+   $LANG['AggiungiFamiliare'] = "Add Familiar";
+   $LANG['AggiungiMarket'] = "Add Market";
+   $LANG['Familiare'] = "Familiar";
+   $LANG['Market'] = "Market";
+   $LANG['DataSpesa'] = "Expense date";
+   $LANG['AggiungiScontrino'] = "Add Receipt";
+?>
